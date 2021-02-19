@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body
+{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/********BLOG*******/
+.blog
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.card
+{
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    text-align: left;
+}
+.card .imgBox
+{
+    max-width: 50%;
+}
+.card .imgBox img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+.card .textBox
+{
+    max-width: 40%;
+}
+/********MEDIA**********/
+@media(max-width: 991px)
+{
+    .blog
+    {
+        padding: 5px;
+    }
+    .card
+    {
+        min-width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .textBox
+    {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 20px 0;
+    }
+    .imgBox
+    {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
