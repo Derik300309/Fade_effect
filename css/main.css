@@ -49,8 +49,8 @@ html,body
 }
 .toRight
 {
-    transform: translateX(-50px);
-    transition: all ease-in 1s;
+    transform: translateX(-200px);
+    transition: all ease 0.5s;
 }
 .toRight.open
 {
@@ -58,8 +58,8 @@ html,body
 }
 .toLeft
 {
-    transform: translateX(50px);
-    transition: all ease-in 1s;
+    transform: translateX(200px);
+    transition: all ease 0.5s;
 }
 .toLeft.open
 {
