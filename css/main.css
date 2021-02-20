@@ -24,6 +24,7 @@ html,body
 }
 .card
 {
+    min-width: 50%;
     max-width: 90%;
     display: flex;
     align-items: center;
@@ -44,9 +45,14 @@ html,body
 {
     max-width: 40%;
 }
-.fade-in {
+.fade-in
+{
     opacity: 0;
 }
+.fade-in.open
+{
+    opacity: 1;
+} 
 .toRight
 {
     transform: translateX(-200px);
@@ -78,6 +84,7 @@ html,body
         max-width: 100%;
         flex-direction: column;
         text-align: center;
+        margin: 5px 0;
     }
     .textBox
     {
