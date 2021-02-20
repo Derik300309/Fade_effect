@@ -50,7 +50,7 @@ html,body
 .toRight
 {
     transform: translateX(-200px);
-    transition: all ease 0.5s;
+    transition: all ease 500ms;
 }
 .toRight.open
 {
@@ -59,7 +59,7 @@ html,body
 .toLeft
 {
     transform: translateX(200px);
-    transition: all ease 0.5s;
+    transition: all ease 500ms;
 }
 .toLeft.open
 {
