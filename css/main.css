@@ -47,6 +47,24 @@ html,body
 .fade-in {
     opacity: 0;
 }
+.toRight
+{
+    transform: translateX(-50px);
+    transition: all ease-in 1s;
+}
+.toRight.open
+{
+    transform: translateX(0);
+}
+.toLeft
+{
+    transform: translateX(50px);
+    transition: all ease-in 1s;
+}
+.toLeft.open
+{
+    transform: translateX(0);
+}
 /********MEDIA**********/
 @media(max-width: 991px)
 {
